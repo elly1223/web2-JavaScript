@@ -5,10 +5,27 @@
     <title></title>
 </head>
 <body>
-    <h1>Arrays</h1>
+    <h1>Array</h1>
     <h2>Syntax</h2>
     <script>
-        
+        var coworkers = ["egoing", "leezche"];  // 값과 값 사이는 콤마(,)로 구분한다.
+    </script>
+
+    <h2>get</h2>
+    <script>
+        document.write(coworkers[0]);  // coworkers의 데이터를 꺼내오고 싶을 때
+        document.write(coworkers[1]);
+    </script>
+
+    <h2>add</h2>
+    <script>
+        coworkers.push('duru');  // 데이터 추가하기
+        coworkers.push('taeho');
+    </script>
+
+    <h2>count</h2>
+    <script>
+        document.write(coworkers.length);  // 배열 안에 값이 몇 개 있는지 알려줌
     </script>
 </body>
 </html>
